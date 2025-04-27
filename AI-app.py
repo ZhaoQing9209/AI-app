@@ -11,7 +11,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 # Load and preprocess data
 @st.cache_data
 def load_data():
-    data = pd.read_csv("C:/Degree Year 2 Semester 3/AI/Music dataset/music_sentiment_dataset_with_ratings.csv")
+    data = pd.read_csv("music_sentiment_dataset_with_ratings.csv")
     
     # Column normalization
     column_mapping = {
